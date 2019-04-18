@@ -1,0 +1,26 @@
+.camera-container {
+    max-width: 100%;
+    border: 1px solid black;
+}
+
+.verification-image {
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+#captureCanvas, #uploadCanvas {
+    display: none;
+}
+
+input[name="image-upload"] {
+    display: none;
+}
+
+#errorAlert, #warningAlert {
+    display: none;
+}
